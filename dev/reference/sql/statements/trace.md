@@ -47,7 +47,6 @@ Query OK, 5 rows affected (0.02 sec)
 Records: 5  Duplicates: 0  Warnings: 0
 
 mysql> TRACE FORMAT='json' SELECT * FROM t1 WHERE id = 2\G
-*************************** 1. row ***************************
 operation: [
     {"ID":{"Trace":"60d20d005593de87","Span":"44e5b309242ffe2f","Parent":"79d146dac9a29a7e"},
         "Annotations":[
