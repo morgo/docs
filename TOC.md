@@ -70,14 +70,14 @@
     - [Migrate from CSV](tools/lightning/csv.md)
   + Maintain
     - [Backup and Restore](dev/how-to/maintain/backup-and-restore.md)
-    + Scale
-      - [Scale a TiDB Cluster](dev/how-to/maintain/scale/horizontally.md)
-      - [Scale using Ansible](dev/how-to/maintain/scale/with-ansible.md)
     - [Identify Slow Queries](dev/how-to/maintain/identify-slow-queries.md)
-    + Upgrade
-      - [Upgrade from TiDB 2.1](dev/how-to/maintain/upgrade/from-previous-version.md)
-      - [Upgrade Data Migration](dev/how-to/maintain/upgrade/data-migration.md)
-      - [Rolling updates with Ansible](dev/how-to/maintain/upgrade/rolling-updates-with-ansible.md)
+  + Scale
+    - [Scale a TiDB Cluster](dev/how-to/scale/horizontally.md)
+    - [Scale using Ansible](dev/how-to/scale/with-ansible.md)
+  + Upgrade
+    - [Upgrade from TiDB 2.1](dev/how-to/upgrade/from-previous-version.md)
+    - [Upgrade Data Migration](dev/how-to/upgrade/data-migration.md)
+    - [Rolling updates with Ansible](dev/how-to/upgrade/rolling-updates-with-ansible.md)
   - Troubleshoot
     - [Troubleshoot Cluster Setup](dev/how-to/troubleshoot/cluster-setup.md)
     - [Troubleshoot Data Migration](dev/how-to/troubleshoot/data-migration.md)
@@ -283,8 +283,9 @@
 - [Roadmap](ROADMAP.md)
 + [Releases](releases/rn.md)
   + v3.0
-    - [3.0.0 Beta.1](releases/3.0.0-beta.1.md)
-    - [3.0 Beta](releases/3.0beta.md)
+    - [3.0.0-rc.1](releases/3.0.0-rc.1.md)
+    - [3.0.0-beta.1](releases/3.0.0-beta.1.md)
+    - [3.0.0-beta](releases/3.0beta.md)
   + v2.1
     - [2.1.9](releases/2.1.9.md)
     - [2.1.8](releases/2.1.8.md)
